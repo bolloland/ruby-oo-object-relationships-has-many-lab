@@ -18,6 +18,6 @@ class Song
     end
 
     def artist_name
-        self.artist.name if artist#the Song has an Artist has a name
-    end
+        self.artist.name if artist 
+    end #attaches Artist name to song, if the artist exists. 
 end
